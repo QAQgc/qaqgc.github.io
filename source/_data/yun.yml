@@ -7,7 +7,7 @@ avatar:
   status:
     enable: true
     emoji: 🌑
-    message: Looking for dawn.
+    message: 永远相信美好的事情即将发生
 
 #链接
 social:
@@ -46,15 +46,27 @@ notice:
   enable: true
   content: 感谢你来到这
 
-#烟花
-trianglify:
-  enable: false
-  cellSize: 75
-  width: 800
-  height: 600
-  palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
-  opacity: 0.5
+#随机多边形背景
+# trianglify:
+#   enable: false
+#   cellSize: 75
+#   width: 800
+#   height: 600
+#   palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+#   opacity: 0.5
 
 #鼠标指针
 cursor:
+  enable: true
+
+#背景
+# bg_image:
+#   enable: true
+#   url: /images/background.jpg
+#   # dark:
+#   # blur: 30px # 设置背景模糊程度
+#   opacity: 0.8
+
+#标签样式
+wordcloud:
   enable: true

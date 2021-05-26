@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: 馆长君的小站
+subtitle: '兴来每独往，胜事空自知。'
 description: ''
 keywords:
-author: John Doe
+author: 馆长
 language: en
 timezone: ''
 
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/QAQgc/qaqgc.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: master # 默认使用 master 分支
-  message: No update # 你可以自定义此次部署更新的说明
+  message: basic configurations # 你可以自定义此次部署更新的说明
