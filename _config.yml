@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 馆长君的小站
+title: 馆长的小站
 subtitle: '兴来每独往，胜事空自知。'
 description: ''
 keywords:
 author: 馆长
-language: en
+language: zh-CN
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://qaqgc.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/QAQgc/qaqgc.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: master # 默认使用 master 分支
-  message: basic configurations # 你可以自定义此次部署更新的说明
+  message: Upgraded Hexo version and made basic settings # 你可以自定义此次部署更新的说明

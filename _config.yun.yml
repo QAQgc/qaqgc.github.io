@@ -1,0 +1,133 @@
+#亮暗主题
+mode: auto
+
+#头像
+avatar:
+  url: /images/avatar.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: 永远相信美好的事情即将发生
+
+#链接
+social:
+  - name: GitHub
+    link: https://github.com/QAQgc
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: qaqgcc@google.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/23420632
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+  - name: Twitter
+    link: https://twitter.com/QAQgc
+    icon: icon-twitter-line
+    color: "#1da1f2"
+
+#封面标题
+banner:
+  enable: true
+  title: 馆长的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+#小标语
+notice:
+  enable: true
+  content: 感谢你来到这
+
+#随机多边形背景
+# trianglify:
+#   enable: false
+#   cellSize: 75
+#   width: 800
+#   height: 600
+#   palette: '["YlGnBu", "GnBu", "Purples", "Blues"]'
+#   opacity: 0.5
+
+#鼠标指针
+cursor:
+  enable: true
+
+#背景
+bg_image:
+  enable: true
+  url: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
+  dark: /images/dark_background.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.8
+
+#搜索背景
+# search:
+#   modal: true
+#   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
+#   dark_bg_image: xxx
+#   # placeholder:
+
+#主题色
+# colors:
+#   primary: "#ff0000"
+#   # primary: "#6200ee"
+#   bg: "#757575"
+#   selection_bg: "#ff0000"
+#   tag_start_color: "#999999"
+#   tag_end_color: "#0078E7"
+#   dark:
+#     block: "#1b1f2e"
+#     # block: "#17202A"
+
+#网站图标
+favicon: /favicon.png
+
+#打赏
+reward:
+  enable: false
+
+#标签样式
+wordcloud:
+  enable: true
+
+#页脚
+footer:
+# since: 2016
+
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+    url: http://www.4399.com/
+    title: 4399
+  
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2019-04-12T00:00:00"
+
+#评论
+# comment:
+#   enable: true
+#   tips:
+#     - 评论区施工中
+#   # candidates:
+#   #   - waline
+
+#搜索
+engine_search:
+  enable: false
+
+# search
+# https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  src: /js/search/local-search.js
