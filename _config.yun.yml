@@ -44,7 +44,7 @@ banner:
 #小标语
 notice:
   enable: true
-  content: 感谢你来到这
+  content: Welcome To My Channel
 
 #随机多边形背景
 # trianglify:
@@ -131,3 +131,10 @@ engine_search:
 local_search:
   enable: true
   src: /js/search/local-search.js
+
+#代码高亮＋复制
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
