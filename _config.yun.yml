@@ -94,8 +94,8 @@ reward:
   enable: false
 
 #标签样式
-wordcloud:
-  enable: true
+# wordcloud:
+#   enable: true
 
 #页脚
 footer:
@@ -138,3 +138,55 @@ codeblock:
   prismjs:
     light: default
     dark: tomorrow
+
+#字数/阅读时间统计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+#菜单栏
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+    # - path: https://www.yunyoujun.cn
+    #   icon: icon-cloud-line
+    #   count: 你猜
+  custom:
+    title: 404
+    path: /404.html
+    icon: icon-settings-line
+
+#谷歌分析（浏览量统计）
+# google_analytics:
+#   enable: true
+#   id: G-F948XEFD8T
+#未能成功使用
+
+#不蒜子网站计数器
+busuanzi:
+  enable: true
+  site_uv: true
+  site_uv_icon: icon-user-line
+  site_pv: true
+  site_pv_icon: icon-eye-line
+  page_pv: true
+  page_pv_icon: icon-eye-line
+
+#评论
+waline:
+  enable: true
+  serverURL: https://my-waline-o633vqwob-qaqgc.vercel.app/
+  # visitor: true
+  comment: true

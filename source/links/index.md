@@ -6,11 +6,11 @@ keywords: 链接
 description: 馆长的小伙伴们
 comments: true
 links:
-  - url: https://yunyoujun.cn
-    avatar: https://cdn.jsdelivr.net/gh/YunYouJun/yunyoujun.github.io/images/avatar.jpg
-    name: 云游君
-    blog: 云游君的小站
-    desc: All at sea.
+  - url: https://wtfhcn.github.io/
+    avatar: https://qaqgc.github.io/images/links/1.jpg
+    name: hcn
+    blog: NaCNer
+    desc: 要失业了
     color: "#0078e7" # 代表色
     email: # 非必须
 placeholder: 还没想好说些什么 # 默认对友链的描述

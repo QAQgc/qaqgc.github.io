@@ -110,10 +110,45 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: yun
 
+#禁用live2d
+live2d:
+  enable: false
+  # 推荐使用 jsdelivr 的 CDN 来加载
+  # scriptFrom: jsdelivr
+  # pluginRootPath: live2dw/
+  # pluginJsPath: lib/
+  # pluginModelPath: assets/
+  # tagMode: false
+  # debug: false
+  # model:
+  #   # 推荐使用 CDN 来加载模型
+  #   use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json
+  # display:
+  #   position: right
+  #   width: 150
+  #   height: 300
+  # mobile:
+  #   show: true
+  # react:
+  #   opacity: 0.7
+  # dialog:
+  #   # 是否开启对话框
+  #   enable: true
+  #   # 是否使用一言
+  #   hitokoto: true
+
+#播放器
+aplayer:
+  cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+  style_cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+  meting: true
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo: https://github.com/QAQgc/qaqgc.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: master # 默认使用 master 分支
-  message: Upgraded Hexo version and made basic settings # 你可以自定义此次部署更新的说明
+  message: update Comment system # 你可以自定义此次部署更新的说明
+
