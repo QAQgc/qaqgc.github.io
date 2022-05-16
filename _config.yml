@@ -150,5 +150,5 @@ deploy:
   type: git
   repo: https://github.com/QAQgc/qaqgc.github.io # 比如：https://github.com/YunYouJun/yunyoujun.github.io
   branch: master # 默认使用 master 分支
-  message: update Comment system # 你可以自定义此次部署更新的说明
+  message: add PyTorch_train # 你可以自定义此次部署更新的说明
 

@@ -99,7 +99,7 @@ reward:
 
 #页脚
 footer:
-# since: 2016
+  since: 2021
 
   icon:
     name: icon-cloud-line
@@ -112,7 +112,7 @@ footer:
     enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: "2019-04-12T00:00:00"
+    start_time: "2021-05-12T00:00:00"
 
 #评论
 # comment:
