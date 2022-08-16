@@ -41,6 +41,7 @@ html.dark {
   --hty-link-color: #0078e7;
   --hty-gray-color: #999;
   --hty-yellow-color: #ff8718;
+  --blockquote-border-left-color: var(--smc-border-color);
 }
 .primary {
   color: #005eb4;
@@ -146,23 +147,6 @@ html.dark {
   --page-btn-bg-color: rgba(0,0,0,0.5);
   --page-btn-hover-bg-color: rgba(199,228,255,0.9);
   --page-btn-active-bg-color: #0078e7;
-/* for waline */
-/* 常规颜色 */
-  --waline-white: #000;
-  --waline-light-grey: #666;
-  --waline-dark-grey: #999;
-/* 布局颜色 */
-  --waline-text-color: #888;
-  --waline-bgcolor: #1e1e1e;
-  --waline-bgcolor-light: #272727;
-  --waline-border-color: #333;
-  --waline-disable-bgcolor: #444;
-  --waline-disable-color: #272727;
-/* 特殊颜色 */
-  --waline-bq-color: #272727;
-/* 其他颜色 */
-  --waline-info-bgcolor: #272727;
-  --waline-info-color: #666;
 }
 .disable-hover,
 .disable-hover * {
@@ -370,6 +354,44 @@ input {
   align-items: center;
   height: 100vh;
 }
+#banner .char {
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-size: var(--banner-char-size, 1rem);
+  font-weight: 900;
+  background-color: var(--banner-char-bg-color);
+  line-height: 1;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: 0s;
+}
+#banner .char:hover {
+  color: var(--banner-char-hover-color);
+  background-color: var(--banner-char-color);
+}
+#banner .char-left,
+#banner .char-right {
+  display: flex;
+  color: var(--banner-char-color);
+  opacity: 0;
+}
+#banner .char-left {
+  border-left: 1px solid var(--banner-line-color);
+  border-right: 0px solid rgba(0,120,231,0.1);
+  border-right-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+#banner .char-right {
+  border-left: 0px solid rgba(0,120,231,0.1);
+  border-right: 1px solid var(--banner-line-color);
+  border-left-width: 0px;
+  animation-duration: 0.4s;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
 .banner-char-container {
   display: flex;
   flex-direction: column;
@@ -388,44 +410,6 @@ input {
 .vertical-line-bottom {
   position: absolute;
   bottom: 0;
-}
-.char {
-  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
-  font-size: var(--banner-char-size, 1rem);
-  font-weight: 900;
-  background-color: var(--banner-char-bg-color);
-  line-height: 1;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-delay: 0s;
-}
-.char:hover {
-  color: var(--banner-char-hover-color);
-  background-color: var(--banner-char-color);
-}
-.char-left,
-.char-right {
-  display: flex;
-  color: var(--banner-char-color);
-  opacity: 0;
-}
-.char-left {
-  border-left: 1px solid var(--banner-line-color);
-  border-right: 0px solid rgba(0,120,231,0.1);
-  border-right-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
-}
-.char-right {
-  border-left: 0px solid rgba(0,120,231,0.1);
-  border-right: 1px solid var(--banner-line-color);
-  border-left-width: 0px;
-  animation-duration: 0.4s;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-out;
 }
 .cloud {
   display: flex;
@@ -1579,7 +1563,7 @@ input {
 }
 .markdown-body blockquote {
   padding: 0.6rem 1rem;
-  border-left: 4px solid var(--blockquote-border-left-color);
+  border-left: 4px solid var(--blockquote-border-left-color, --smc-border-color);
   background-color: var(--blockquote-bg-color, rgba(0,120,231,0.05));
 }
 .markdown-body blockquote p {
@@ -2088,31 +2072,32 @@ input {
 #local-search-input {
   outline: none;
 }
-#local-search-result {
+.search-result-container {
   overflow: auto;
   margin: 0;
   padding: 0.5rem 0 1rem 0;
   height: calc(100% - 160px);
 }
-#local-search-result ul.search-result-list {
+.search-result-container ul.search-result-list {
   margin: 0;
   padding: 0;
 }
-#local-search-result ul.search-result-list li {
+.search-result-container ul.search-result-list li {
   display: block;
   width: 100%;
   padding: 0.6rem 0;
 }
-#local-search-result ul.search-result-list li .search-result-title {
+.search-result-container ul.search-result-list li .search-result-title {
   font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: 900;
   font-size: 1.2rem;
 }
-#local-search-result ul.search-result-list li .search-result {
+.search-result-container ul.search-result-list li .search-result {
   margin: 0;
   font-size: 0.8rem;
 }
-#local-search-result ul.search-result-list li .search-result .search-keyword {
+.search-result-container ul.search-result-list li .search-result .search-keyword {
+  background: transparent;
   color: #f00;
   font-style: normal;
   text-decoration: underline;
@@ -2180,8 +2165,24 @@ input {
   color: #0078e7;
 }
 #waline {
+  --waline-color: var(--hty-text-color);
   --waline-theme-color: #0078e7;
   --waline-active-color: rgba(0,120,231,0.8);
+}
+html.dark {
+/* for waline */
+/* 布局颜色 */
+  --waline-text-color: #888;
+  --waline-bgcolor: #1e1e1e;
+  --waline-bgcolor-light: #272727;
+  --waline-border-color: #333;
+  --waline-disable-bgcolor: #444;
+  --waline-disable-color: #999;
+/* 特殊颜色 */
+  --waline-bq-color: #272727;
+/* 其他颜色 */
+  --waline-info-bgcolor: #272727;
+  --waline-info-color: #666;
 }
 #comment {
   margin: 0 1rem;
@@ -2202,12 +2203,6 @@ input {
 }
 #github-issues {
   margin: 1rem;
-}
-.v[data-class=v] p {
-  color: var(--hty-text-color) !important;
-}
-.v[data-class=v] p code {
-  color: #000;
 }
 #say {
   color: var(--hty-text-color);
@@ -2266,6 +2261,17 @@ input {
 }
 .flex-col {
   flex-direction: column;
+}
+.justfiy-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .w-full {
   width: 100%;
