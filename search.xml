@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>游戏测试</title>
+      <link href="/2023/01/25/GameTest/"/>
+      <url>/2023/01/25/GameTest/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>学习笔记</p><span id="more"></span><h3 id="缺陷的等级划分"><a class="markdownIt-Anchor" href="#缺陷的等级划分"></a> 缺陷的等级划分</h3><table><thead><tr><th>严重级别</th><th>严重级别理解</th><th>基本表现</th></tr></thead><tbody><tr><td>严重级别1</td><td>致命错误（紧急）</td><td>功能无法正常运作、死循环、数据可刷、服务器宕机等严重影响玩家玩游戏以及危害公司利益的BUG。</td></tr><tr><td>严重级别2</td><td>严重错误（严重）</td><td>功能流程出现异常、玩家无法正常体验游戏游戏等与策划需求存在不一致的BUG。</td></tr><tr><td>严重级别3</td><td>一般错误（一般）</td><td>特殊情况下出现的BUG、个别玩家操作习惯引起体验较差的BUG，例如功能操作无淡出提示语。优化部分玩家体验的优化建议，不稳定重现但影响不大的BUG，例如游戏内技能固定了按键。</td></tr></tbody></table><p>​</p><table><thead><tr><th>优先级</th><th>优先级理解</th><th>基本表现</th></tr></thead><tbody><tr><td>优先级1</td><td>需立刻修复（高）</td><td>需立刻修复并更新的BUG，往往是严重程度1的BUG。</td></tr><tr><td>优先级2</td><td>可版本内限定时间修复（中）</td><td>规定时间内解决。解决后统一找时间更新。</td></tr><tr><td>优先级3</td><td>可版本外修复（低）</td><td>不影响当前版本更新，可延后至下一个版本甚至下下个版本的BUG；但延期过久的BUG需要及时处理，避免堆积无视。</td></tr></tbody></table><h3 id="测试点思路"><a class="markdownIt-Anchor" href="#测试点思路"></a> 测试点思路</h3><ul><li>UI界面测试（画风、故事情节、背景音乐、文字的契合度、图片的显示、文字的排版、布局等）</li><li>功能测试（数值、活动、存档）</li><li>可用性测试（重力感应，触屏接触点灵敏）</li><li>性能测试（游戏的响应时间很重要、卡顿情况，内存占有、耗电量、流量）</li><li>安全测试（注册登录、防止注入、防止暴力登录、一台设备多用户、一个用户多设备、存储信息完整、合服信息存储、外挂、盗号、用户隐私）</li><li>兼容性（安装与卸载，不同浏览器、系统、移动端PC端）</li><li>压力测试、强度测试（长时间多用户在线，服务器的CPU、内存情况）</li><li>网络测试（弱网）</li></ul><h3 id="测试方法"><a class="markdownIt-Anchor" href="#测试方法"></a> 测试方法</h3><p>场景法、等价类、边界值、错误推测、因果图、判定表、正交实验设计法</p><h3 id="缺陷的提报标准"><a class="markdownIt-Anchor" href="#缺陷的提报标准"></a> 缺陷的提报标准</h3><ul><li>标题：[模板名称] + 简短描述</li><li>描述：bug的详细描述</li><li>复现步骤：重现bug的详细流程步骤</li><li>实际结果：</li><li>期望结果：</li><li>复现率：</li><li>测试环境：SVN版本号、系统、服务器等</li><li>备注：测试账号、log、截图等</li></ul><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 游戏测试 </tag>
+            
+            <tag> 学习 </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>数学公式</title>
       <link href="/2022/09/28/formula/"/>
       <url>/2022/09/28/formula/</url>
@@ -64,7 +93,7 @@
       <link href="/2022/04/25/songs/"/>
       <url>/2022/04/25/songs/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h3 id="最近沉迷告五人的歌"><a class="markdownIt-Anchor" href="#最近沉迷告五人的歌"></a> 最近沉迷告五人的歌</h3><span id="more"></span><p>最早听到的是这首《好不容易》，是《华灯初上》的片尾曲，当时觉得挺好听的，但没有刻意去找原唱</p>    <div id="aplayer-gWDJawIm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1902251868" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>很巧有一天我在刷朋友圈，有个朋友发了一段当时我看着挺非主流的文案：</p><blockquote><p>如果你还没有睡<br />如果你还不停追<br />如果清醒是种罪<br />就把誓言带走 换承诺不回</p></blockquote><p><img src="https://raw.githubusercontent.com/QAQgc/blog-img/main/blog/cat.jpg" alt="cat" / loading="lazy"></p><p>配上略非的自拍，那我肯定忍不了要吐槽一下，结果被别人说我不懂<br />然后查了下必应发现原来是一首歌的歌词</p>    <div id="aplayer-UNWBJSIU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1410647903" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>点开歌手热门作品，惊喜发现《华灯初上》片尾曲居然也是他唱的<br />这首夜生活，让我想起草东没有派对</p>    <div id="aplayer-nXYKTnQN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1368754688" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>原来这首网络十分流行的《爱人错过》也出自告五人<br />也是《华灯初上》第三季成哥和Rose妈妈一起点烟片段的插曲<br />讲道理这段插曲配的真是太棒了</p><blockquote><p><a href="https://www.bilibili.com/video/BV1Zi4y1r7Rm?share_source=copy_web">【bilibili】点烟夫妇 罗雨侬×潘文成</a></p></blockquote><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h3 id="最近沉迷告五人的歌"><a class="markdownIt-Anchor" href="#最近沉迷告五人的歌"></a> 最近沉迷告五人的歌</h3><span id="more"></span><p>最早听到的是这首《好不容易》，是《华灯初上》的片尾曲，当时觉得挺好听的，但没有刻意去找原唱</p>    <div id="aplayer-YIGFfpDH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1902251868" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>很巧有一天我在刷朋友圈，有个朋友发了一段当时我看着挺非主流的文案：</p><blockquote><p>如果你还没有睡<br />如果你还不停追<br />如果清醒是种罪<br />就把誓言带走 换承诺不回</p></blockquote><p><img src="https://raw.githubusercontent.com/QAQgc/blog-img/main/blog/cat.jpg" alt="cat" / loading="lazy"></p><p>配上略非的自拍，那我肯定忍不了要吐槽一下，结果被别人说我不懂<br />然后查了下必应发现原来是一首歌的歌词</p>    <div id="aplayer-fdAAzpIN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1410647903" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>点开歌手热门作品，惊喜发现《华灯初上》片尾曲居然也是他唱的<br />这首夜生活，让我想起草东没有派对</p>    <div id="aplayer-xkwQQQOi" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1368754688" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#C20C0C"    ></div><p>原来这首网络十分流行的《爱人错过》也出自告五人<br />也是《华灯初上》第三季成哥和Rose妈妈一起点烟片段的插曲<br />讲道理这段插曲配的真是太棒了</p><blockquote><p><a href="https://www.bilibili.com/video/BV1Zi4y1r7Rm?share_source=copy_web">【bilibili】点烟夫妇 罗雨侬×潘文成</a></p></blockquote><script type="text&#x2F;javascript" src="https://unpkg.com/kity@2.0.4/dist/kity.min.js"></script><script type="text&#x2F;javascript" src="https://unpkg.com/kityminder-core@1.4.50/dist/kityminder.core.min.js"></script><script defer="true" type="text&#x2F;javascript" src="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.js"></script><link rel="stylesheet" type="text&#x2F;css" href="https://unpkg.com/hexo-simple-mindmap@0.8.0/dist/mindmap.min.css">]]></content>
       
       
       <categories>
